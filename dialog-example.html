@@ -12,12 +12,19 @@
             <form>
             <p>
                 <label>
-                Favorite animal:
+                Qual seu Mugiwara favorito:
                 <select>
                     <option value="default">Choose…</option>
-                    <option>Brine shrimp</option>
-                    <option>Red panda</option>
-                    <option>Spider monkey</option>
+                    <option>Monkey D. Luffy (Capitão)</option>
+                    <option>Roronoa Zoro (Espadachin)</option>
+                    <option>Nami (Navegatora)</option>
+                    <option>Usopp (Atirador)</option>
+                    <option>Vinsmoke Sanji (Cozinheiro)</option>
+                    <option>Tony Tony Chopper (Médico)</option>
+                    <option>Nico Robin (Arqueóloga)</option>
+                    <option>Franky (Carpinteiro)</option>
+                    <option>Brook (Músico)</option>
+                    <option>Jimbe (Timoneiro)</option>
                 </select>
                 </label>
             </p>
@@ -45,7 +52,7 @@ showButton.addEventListener("click", () => {
   favDialog.showModal();
 });
 
-// "Favorite animal" input sets the value of the submit button
+// "Qual seu Mugiwara favorito" input sets the value of the submit button
 selectEl.addEventListener("change", (e) => {
   confirmBtn.value = selectEl.value;
 });
